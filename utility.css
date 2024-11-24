@@ -1,0 +1,39 @@
+.flex{
+    display: flex;
+    gap: 5px;
+}
+.justify-centre{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.rounder{
+    border-radius: 6px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+    height: 10px; /* Height for horizontal scrollbar (if needed) */
+}
+
+::-webkit-scrollbar-track {
+    background: #1E1E1E; /* Background of the scrollbar track */
+    border-radius: 5px; /* Rounded corners for the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444444; /* Thumb (scrollbar handle) color */
+    border-radius: 5px; /* Rounded corners for the thumb */
+    border: 2px solid #1E1E1E; /* Space around the*/
+}
