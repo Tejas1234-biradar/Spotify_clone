@@ -69,7 +69,7 @@ async function displayAlbums() {
   
     if (e.href.includes("/songs")) {
       let folder=e.href.split("/").splice(-2)[0]
-      let a = await fetch(`/songs/${folder}/info.json`);
+      let a = await fetch(`127:/songs/${folder}/info.json`);
       let response = await a.json();
       console.log(response);
     let data=document.querySelector(".cardContainer")
